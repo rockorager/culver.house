@@ -9,8 +9,5 @@ pub fn build(b: *std.Build) !void {
         .content_dir_path = "content",
         .assets_dir_path = "assets",
         .debug = true,
-        .static_assets = &.{
-            "favicon.png",
-        },
     });
 }
