@@ -1,0 +1,8 @@
+---
+.title = "devlog",
+.date = @date("2024-10-02T20:34:18"),
+.author = "Tim Culverhouse",
+.layout = "index.shtml",
+.draft = false,
+---
+Development updates from *the* rockorager

@@ -1,0 +1,19 @@
+---
+.title = "Porting to Zine",
+.date = @date("2024-10-04T12:54:20"),
+.author = "Tim Culverhouse",
+.layout = "devlog.shtml",
+.draft = false,
+---
+
+Today I ported my personal website to [zine](https://zine-ssg.io). Inspired by
+Loris's [post](https://kristoff.it/blog/critical-social-infrastructure/) about
+maintaining a development log, I've decided to try to keep a devlog. I usually
+end up sharing things I'm working on in random IRC channels or in the Ghostty
+discord...having a centrallized place to share what I'm working on is probably
+better than being spammy 😂.
+
+My previous site was built on Hugo, and really only had about 30 family recipes.
+It was just a matter of updating the frontmatter, and building a few new layouts
+to get it ported over. And also a `post-receive` hook on my VPS to build the
+site.

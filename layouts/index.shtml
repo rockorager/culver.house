@@ -2,6 +2,7 @@
 <title id="title" :text="$page.title"></title>
 <main id="main">
   <h1 :text="$page.title"></h1>
+  <div :html="$page.content()"></div>
   <div :loop="$page.subpages()">
     <article style="display:flex;justify-content:space-between">
       <a
