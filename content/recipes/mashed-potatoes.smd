@@ -1,0 +1,28 @@
+---
+.title= "Mashed Potatoes",
+.date= @date("2022-03-24T14:36:02"),
+.author = "Tim Culverhouse",
+.layout = "recipe.shtml",
+---
+
+## Ingredients
+
+- Yukon gold potatoes
+- Cream Cheese
+- Butter
+- Salt
+- Pepper
+
+## Instructions
+
+1. Skin and quarter potatoes
+2. Boil potatoes for 20-25 minutes
+3. Drain
+4. Lightly mash
+5. Put in butter and cream cheese and salt
+6. Mash more
+7. Taste test, add more butter, cream cheese, or salt to taste
+
+## Notes
+
+2020-06-28: Made this recipe from some website online, it was really good so writing it down

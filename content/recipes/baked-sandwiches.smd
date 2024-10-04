@@ -1,0 +1,20 @@
+---
+.title = "Baked Sandwiches",
+.date = @date("2021-10-18T06:33:23"),
+.author = "Tim Culverhouse",
+.layout = "recipe.shtml",
+---
+## Ingredients
+- Cheese
+- 2 sticks butter (16 tbsp)
+- 2 tbsp poppy seeds
+- 2 tbsp worcestershire sauce
+- 2 tbsp mustard
+- 4 tbsp brown sugar (optional)
+- 6-8 hamburger buns
+
+## Instructions
+1. Combine melted butter, poppy seeds, worcestershire sauce, mustard, and (optionally) brown sugar
+2. Pour over sandwiches and refigerate for at least 4 hours
+3. Bake at 325 for 25 minutes covered and 5 min uncovered
+
