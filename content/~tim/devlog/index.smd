@@ -4,5 +4,9 @@
 .author = "Tim Culverhouse",
 .layout = "index.shtml",
 .draft = false,
+.alternatives = [{
+    .layout = "devlog.xml",
+    .output = "~tim/devlog/rss.xml",
+  }],
 ---
 Development updates from *the* rockorager
