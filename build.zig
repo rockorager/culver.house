@@ -10,4 +10,16 @@ pub fn build(b: *std.Build) !void {
         .assets_dir_path = "assets",
         .debug = true,
     });
+
+    const deploy_step = b.step("deploy", "Deploy to server");
+    const rsync = b.addSystemCommand(&.{
+        "rsync",
+        "--archive",
+        "--verbose",
+        "--compress",
+        b.install_path,
+        "tim@culver.house:/var/www/culver.house/",
+    });
+    rsync.step.dependOn(b.getInstallStep());
+    deploy_step.dependOn(&rsync.step);
 }
