@@ -1,12 +1,15 @@
 ---
-.title = "devlog",
+.title = "rockorager's devlog",
 .date = @date("2024-10-02T20:34:18"),
 .author = "Tim Culverhouse",
 .layout = "index.shtml",
 .draft = false,
 .alternatives = [{
+    .name = "rss",
     .layout = "devlog.xml",
-    .output = "~tim/devlog/rss.xml",
+    .output = "tim/devlog/rss.xml",
   }],
 ---
-Development updates from *the* rockorager
+
+Development updates from rockorager. Also available via
+[RSS](https://culver.house/tim/devlog/rss.xml).
